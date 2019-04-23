@@ -1,4 +1,4 @@
-##Plot 2
+## Plot 2
 
 data_master <- read.csv("./data/household_power_consumption.txt", header=T, sep=';', na.strings="?", 
                         nrows=2075259, check.names=F, stringsAsFactors=F, comment.char="", quote='\"')
