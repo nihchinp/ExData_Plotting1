@@ -2,7 +2,7 @@ setwd('C:/Users/mtsc7/Desktop/coursera')
 if(!file.exists("./data")){dir.create("./data")}
 unzip(zipfile="./exdata_data_household_power_consumption.zip",exdir="./data")
 
-##Plot 1
+## Plot 1
 data_master <- read.csv("./data/household_power_consumption.txt", header=T, sep=';', na.strings="?", 
                         nrows=2075259, check.names=F, stringsAsFactors=F, comment.char="", quote='\"')
 
